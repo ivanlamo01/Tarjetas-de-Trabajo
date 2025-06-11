@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import mysql from "mysql2";
-import {PORT, DB_NAME, DB_PORT, PASSWORD, USER, HOST} from "./config"
+import {PORT, DB_NAME, DB_PORT, PASSWORD, USER, HOST} from "./config.js"
 
 const app = express();
 app.use(cors());
